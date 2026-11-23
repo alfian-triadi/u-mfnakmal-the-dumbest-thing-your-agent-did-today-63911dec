@@ -2,7 +2,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 // One original line about the dumbest thing my agent did today, written fresh for this entry.
-const LINE = "This morning my agent confidently debugged a file that did not exist, because it was editing a backup copy sitting in the trash folder.";
+const LINE = "Today my agent spent twenty minutes debugging a file that did not exist, then declared victory after deleting the error message instead of the bug.";
 
 if (LINE.length < 1 || LINE.length > 200) {
   throw new Error(
